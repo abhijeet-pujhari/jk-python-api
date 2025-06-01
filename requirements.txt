@@ -1,0 +1,15 @@
+# Python dependencies
+fastapi
+uvicorn[standard]
+sqlalchemy[asyncio]
+asyncpg
+pydantic
+python-dotenv
+passlib[bcrypt]
+python-jose[cryptography]
+httpx
+ollama  # for Llama3 integration, or replace with preferred model client
+pytest
+pytest-asyncio
+aioredis
+boto3
